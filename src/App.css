@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 
+:root {
+  --desktop: 1200px;
+  --laptop: 1024px;
+  --tablet: 768px;
+  --phone: 480px;
+}
+
 .App {
   text-align: center;
   font-family: 'Marmelad', sans-serif;
+  background: white;
 }
 
 #violin-photo{
   height: 300px;
   margin-top: 20px;
+  border: 2px solid black;
 }
 
 #header, #app-container, #connect{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 
 #header-text{
@@ -21,14 +31,33 @@
   padding: 20px;
   border: 2px solid black;
   margin: 20px;
-  height: 255px;
+  height: fit-content;
+  background-color: #f1f1f1;
 }
 
 .project-card{
-  border: 2px solid black;
   width: 320px;
+  height: fit-content;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 4px 10px;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+#connect i{
+  margin: 15px;
+  cursor: pointer;
+}
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+/* below 768px */
+@media screen and (max-width: 768px) {
+  #header, #app-container, #connect {
+    display: flex;
+    flex-direction: column;
+  }
 }
