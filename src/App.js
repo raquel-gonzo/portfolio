@@ -6,14 +6,17 @@ import Connect from './components/connect';
 
 const projects = [
   {
+    image: "",
     title: "Violin Studio",
     content: "a practice journal and sheet music resource."
   },
   {
+    image: "https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_300/v1602106263/yoga_lib_vhycnx.jpg",
     title: "Yoga Lib",
-    content: "a library of yoga poses."
+    content: "a library of yoga poses.",
   },
   {
+    image: "",
     title: "proj 3",
     content: ""
   },
