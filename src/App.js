@@ -21,7 +21,7 @@ const projects = [
     image: "https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_350/v1603316676/skullies_fhcyky.png",
     title: "Skully Match",
     content: "Match the sugar skulls. A memory card game made with React and Cloudinary. Originally done in vanilla JavaScript, HTML and CSS, the game uses hooks to manage state and shuffling the deck.",
-    link: "https://app.netlify.com/sites/react-memory-skullies/overview"
+    link: "https://app.netlify.com/sites/react-memory-skullies"
   },
 ]
 
