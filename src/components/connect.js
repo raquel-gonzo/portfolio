@@ -1,14 +1,14 @@
 import React from "react";
 
 const Connect = () => {
-  const linkedIn = () => {
+  const linkedIn = (e) => {
+    e.preventDefault();
     window.open("https://www.linkedin.com/in/rgonzalezviolin");
   };
 
-  const gitHub = () => {
-    window.open = () => {
-      "https://github.com/raquel-gonzo";
-    };
+  const gitHub = (e) => {
+    e.preventDefault();
+    window.open("https://github.com/raquel-gonzo");
   };
   return (
     <div id="connect-container">

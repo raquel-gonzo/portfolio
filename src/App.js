@@ -35,8 +35,6 @@ function App() {
       <div id="app-container">
         {
           projects.map((project, index) => {
-            console.log("project");
-            console.log(project);
             return <Project project={project} key={index}/>
           })
         }
