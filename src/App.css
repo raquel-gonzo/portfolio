@@ -105,6 +105,12 @@ h2{
     margin-bottom: 15px;
   }
 
+  .proj-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
 #violin-photo{
   width: 268px;
 }
