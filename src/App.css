@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #header-text, #connect {
@@ -35,7 +36,7 @@ body {
   padding: 20px;
   border: 2px solid black;
   border-radius: 6px;
-  height: fit-content;
+  /* height: fit-content; */
   background-color: #f1f1f1;
 }
 
@@ -45,7 +46,7 @@ body {
 
 .project-card {
   width: 450px;
-  height: fit-content;
+  height: 600px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 4px 10px;
@@ -53,6 +54,11 @@ body {
   border: 2px solid black;
   border-radius: 6px;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  transition: width 1s;
+}
+
+.project-card:hover {
+  border: 5px solid black;
 }
 
 #connect i {
@@ -103,6 +109,7 @@ h2{
   .project-card {
     width: 88%;
     margin-bottom: 15px;
+    height: fit-content;
   }
 
   .proj-img {
