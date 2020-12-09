@@ -8,7 +8,7 @@ const Header = () => {
           className="rounded-lg"
           id="violin-photo"
           src="https://res.cloudinary.com/raquel-gonzo/image/upload/v1602080811/violin-photo.jpg"
-          alt="Rachel Gonzalez her violin."
+          alt="Rachel Gonzalez and her violin."
         />
         <div id="header-text">
           <h1>Hi, I'm Rachel!</h1>
