@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
-import Home from "./components/Home.view";
-import ProjectsView from "./components/Projects.view";
-import ConnectView from "./components/Connect.view";
+import Home from "./views/Home.view";
+import ProjectsView from "./views/Projects.view";
+import ConnectView from "./views/Connect.view";
+import NavBar from "./components/NavBar"
 import { Router } from "@reach/router";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Router>
         <Home path="/" />
         <ProjectsView path="/projects" />
