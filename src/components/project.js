@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Project = ({ project }) => {
-    // props.project
     return(
         <div className="project-card">
             <a href={project.link} ><img src={project.image} alt="a preview of X project" className="proj-img"/></a>
