@@ -8,7 +8,7 @@ import { Router } from "@reach/router";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="appjs-container" >
       <NavBar />
       <Router>
         <Home path="/" />
