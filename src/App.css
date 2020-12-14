@@ -24,6 +24,15 @@ nav {
   align-content: center;
   border: 2px solid black;
   border-radius: 6px;
+  color: black;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: white;
 }
 
 .nav-container {
@@ -33,8 +42,8 @@ nav {
 }
 
 #violin-photo {
+  /* 268 width   */
   height: 400px;
-  margin-top: 20px;
   border: 2px solid black;
 }
 
@@ -46,9 +55,14 @@ nav {
   flex-wrap: wrap;
 }
 
+#header {
+  margin-top: 21px;
+}
+
 #header-text,
 #connect {
   width: 600px;
+  margin-left: 21px;
   padding: 20px;
   border: 2px solid black;
   border-radius: 6px;
@@ -56,7 +70,6 @@ nav {
 }
 
 #header-text {
-  margin: 20px;
   height: 400px;
 }
 
