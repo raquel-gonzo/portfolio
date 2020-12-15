@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const Home = () => {
   return (
     <div>
       <div id="header">
@@ -23,19 +23,6 @@ const Header = () => {
             me to enhance my knowledge of full stack web development. I'm
             looking forward to joining a collaborative team where I can share my
             skills and knowledge of front end development. 
-            
-{/*             
-            I am a violinist and
-            violin teacher. I love using technology to teach my students music.
-
-            I love teaching others what I'm passionate about, whther it is
-            music, yoga, or coding. I have 3+ years experience in retail banking
-            but decided to make a career change in order to pursue opportunities
-            in tech where I can put my teaching/tutoring skills to use. I
-            recently completed a 16 week accelerated coding bootcamp at Coding
-            Dojo, which helped me to enhance my knowledge of full stack software
-            development. I'm looking forward to joining a collaborative team
-            where I can share my skills and knowledge of front end development. */}
           </p>
         </div>
       </div>
@@ -43,4 +30,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;

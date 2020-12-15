@@ -1,6 +1,6 @@
 import React from "react";
 
-const Connect = () => {
+const ConnectView = () => {
   const linkedIn = (e) => {
     e.preventDefault();
     window.open("https://www.linkedin.com/in/rgonzalezviolin");
@@ -30,4 +30,4 @@ const Connect = () => {
   );
 };
 
-export default Connect;
+export default ConnectView;
