@@ -47,14 +47,14 @@ const ProjectsView = () => {
   ];
 
   return (
-    <>
+    <div>
       <h2>My Code Projects</h2>
       <div id="app-container">
         {projects.map((project, index) => {
           return <Project project={project} key={index} />;
         })}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ const ConnectView = () => {
   };
   return (
     <div id="connect-container">
-      <h2>Contact</h2>
+      <h2>Connect</h2>
       <div id="connect">
         <p>
           Feel free to contact me at{" "}

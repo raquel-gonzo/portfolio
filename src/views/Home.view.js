@@ -16,9 +16,11 @@ const Home = () => {
             I am a recent coding bootcamp grad, knowledgable in React and Node,
             looking for her first tech role in front end or full stack
             development. I am passionate about music and about sharing knowledge
-            with others, making it accessible to everyone. </p>
+            with others, making it accessible to everyone. 
+          </p>
             
-            <p>I recently completed
+          <p>
+            I recently completed
             a 16 week accelerated coding bootcamp at Coding Dojo, which helped
             me to enhance my knowledge of full stack web development. I'm
             looking forward to joining a collaborative team where I can share my
