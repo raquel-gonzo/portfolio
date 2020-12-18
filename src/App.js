@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import { Router } from "@reach/router";
 
 function App() {
+
   return (
     <div className="App">
       <NavBar />
