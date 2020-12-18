@@ -13,7 +13,7 @@ const ConnectView = () => {
   return (
     <div id="connect-container">
       <h2>Connect</h2>
-      <div id="connect">
+      <div className="text-containers border-style">
         <p>
           Feel free to contact me at{" "}
           <a href="mailto:gonzalez.rachel.c@gmail.com">

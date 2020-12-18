@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ project }) => {
   return (
-    <div className="project-card">
+    <div className="project-card border-style">
 
       <div className="proj-text">
         <h3>{project.title}</h3>

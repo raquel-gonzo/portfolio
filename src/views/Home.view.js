@@ -5,15 +5,15 @@ const Home = () => {
   return (
     <div>
       <div id="header">
-        <Image 
-          publicId="smaller-violin-photo.jpg" 
-          cloud_name="raquel-gonzo" 
+        <Image
+          publicId="smaller-violin-photo.jpg"
+          cloud_name="raquel-gonzo"
           height="400"
           width="267"
           className="rounded-lg border-style"
           alt="Rachel Gonzalez and her violin."
-          ></Image>
-        <div id="header-text">
+        ></Image>
+        <div className="text-containers border-style">
           <h1>Hi, I'm Rachel!</h1>
           <p>
             I am a recent coding bootcamp grad, knowledgable in React and Node,

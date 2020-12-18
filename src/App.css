@@ -57,31 +57,21 @@ nav a:hover {
   margin-top: 21px;
 }
 
-#header-text {
-  height: 400px;
-}
-
 .border-style {
   border: 2px solid black;
   border-radius: 6px;
 }
 
-#header-text,
-#connect {
-  width: 600px;
-  margin-left: 21px;
-  padding: 20px;
-  border: 2px solid black;
-  border-radius: 6px;
-  background-color: #f1f1f1;
+#icons i {
+  margin: 10px;
 }
 
-/* .text-containers {
+.text-containers {
   width: 600px;
   margin-left: 21px;
   padding: 20px;
   background-color: #f1f1f1;
-} */
+}
 
 .project-card {
   width: 890px;
