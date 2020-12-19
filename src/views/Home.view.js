@@ -4,13 +4,14 @@ import { Image } from "cloudinary-react";
 const Home = () => {
   return (
     <div>
-      <div id="header">
+      <div id="header" className="flex-settings">
         <Image
           publicId="smaller-violin-photo.jpg"
           cloud_name="raquel-gonzo"
           height="400"
           width="267"
           className="rounded-lg border-style"
+          id="violin-pic"
           alt="Rachel Gonzalez and her violin."
         ></Image>
         <div className="text-containers border-style">

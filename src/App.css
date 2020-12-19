@@ -7,6 +7,8 @@
   --phone: 480px;
 }
 
+/* Elements */
+
 body {
   height: 100%;
   margin: 0;
@@ -39,22 +41,27 @@ nav a:hover {
   color: white;
 }
 
+h2 {
+  margin-top: 30px;
+}
+
+#icons i {
+  margin: 10px;
+}
+
+/* Classes */
+
 .nav-container {
   display: flex;
   justify-content: center;
   margin-top: 15px;
 }
 
-#header,
-#app-container {
+.flex-settings {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-#header {
-  margin-top: 21px;
 }
 
 .border-style {
@@ -62,15 +69,11 @@ nav a:hover {
   border-radius: 6px;
 }
 
-#icons i {
-  margin: 10px;
-}
-
 .text-containers {
   width: 600px;
-  margin-left: 21px;
   padding: 20px;
   background-color: #f1f1f1;
+  margin: 10px;
 }
 
 .project-card {
@@ -90,6 +93,8 @@ nav a:hover {
   margin-right: 10px;
 }
 
+/* IDs */
+
 #connect {
   display: flex;
   flex-direction: column;
@@ -107,8 +112,8 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-h2 {
-  margin-top: 30px;
+#header {
+  margin-top: 20px;
 }
 
 /*****************/
@@ -116,7 +121,7 @@ h2 {
 /*****************/
 
 /* below 768px */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #header,
   #app-container,
   #connect,
@@ -146,5 +151,34 @@ h2 {
 
   #violin-photo {
     width: 268px;
+  }
+} */
+
+.hide-mobile {
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+
+.hide-desktop {
+  @media not all and (max-width: 480px) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    width: 420px;
+  }
+
+  #violin-pic {
+    width: 134px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #header {
+    width: 420px;
+    margin-bottom: 20px;
   }
 }
