@@ -51,6 +51,15 @@ h2 {
 
 /* Classes */
 
+button {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px;
+}
+
 .nav-container {
   display: flex;
   justify-content: center;

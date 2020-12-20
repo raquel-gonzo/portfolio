@@ -3,10 +3,12 @@ import Collapsible from "react-collapsible";
 
 const Project = ({ project }) => {
   return (
-      <Collapsible 
-        trigger={project.title}
-        className="text-containers border-style"
-      >
+    <Collapsible
+      trigger={project.title}
+      // className="text-containers border-style"
+      contentContainerTagName="button"
+      // className="Collapsible__contentInner"
+    >
         <div>
           <p>{project.content}</p>
         </div>
@@ -19,7 +21,7 @@ const Project = ({ project }) => {
             />
           </a>
         </div>
-      </Collapsible>
+    </Collapsible>
   );
 };
 
