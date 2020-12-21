@@ -1,20 +1,26 @@
 import React from "react";
-import { Image } from "cloudinary-react";
+import { Image, Transformation } from "cloudinary-react";
 
 const Home = () => {
   return (
     <div>
       <div id="header" className="flex-settings">
-        <Image
-          publicId="smaller-violin-photo.jpg"
-          cloud_name="raquel-gonzo"
-          height="400"
-          width="267"
+        <Image 
+          publicId="smaller-violin-photo.jpg" 
+          cloud_name="raquel-gonzo" 
           className="rounded-lg border-style"
+          dpr="auto"
+          responsive
+          width="auto"
+          crop="scale"
+          responsiveUseBreakpoints="true"
           id="violin-pic"
-          alt="Rachel Gonzalez and her violin."
-        ></Image>
-        <div className="text-containers border-style">
+          >
+          <Transformation 
+            // height="400" 
+            crop="scale" />
+        </Image>
+        <div className="text-containers border-style" id="header-text">
           <h1>Hi, I'm Rachel!</h1>
           <p>
             I am a recent coding bootcamp grad, knowledgable in React and Node,

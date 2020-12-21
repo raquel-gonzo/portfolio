@@ -6,7 +6,7 @@ const ProjectsView = () => {
   const projects = [
     {
       image:
-        "https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_350/v1604256093/tandem_demo_thumbnail_midoxy.png",
+        "https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_350/v1608444715/portfolio-tandem-preview.png",
       title: "Tandem Trivia",
       content:
         "A trivia game created for Tandem's Software Engineer Apprenticeship (October 2020). Created with React, Hooks, Flat.io, Cloudinary, and Bootstrap.",
@@ -49,7 +49,10 @@ const ProjectsView = () => {
   return (
     <div>
       <h2>My Code Projects</h2>
-      <div className="flex-settings" >
+      <div 
+      // className="flex-settings" 
+      id="proj-display-style"
+      >
         {projects.map((project, index) => {
           return <Project project={project} key={index} />;
         })}

@@ -11,9 +11,9 @@ const ConnectView = () => {
     window.open("https://github.com/raquel-gonzo");
   };
   return (
-    <div id="connect-container">
+    <div >
       <h2>Connect</h2>
-      <div className="text-containers border-style">
+      <div className="text-containers border-style" id="connect-container">
         <p>
           Feel free to contact me at{" "}
           <a href="mailto:gonzalez.rachel.c@gmail.com">

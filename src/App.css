@@ -24,7 +24,7 @@ body {
 nav {
   height: 60px;
   display: flex;
-  width: 890px;
+  width: 935px;
   justify-content: space-around;
   align-items: center;
   align-content: center;
@@ -49,8 +49,6 @@ h2 {
   margin: 10px;
 }
 
-/* Classes */
-
 button {
   border: 2px solid black;
   border-radius: 6px;
@@ -58,7 +56,10 @@ button {
   background-color: #f1f1f1;
   font-family: "Roboto Mono", monospace;
   margin: 10px;
+  width: 700px;
 }
+
+/* Classes */
 
 .nav-container {
   display: flex;
@@ -70,7 +71,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .border-style {
@@ -82,11 +83,9 @@ button {
   width: 600px;
   padding: 20px;
   background-color: #f1f1f1;
-  margin: 10px;
 }
 
 .project-card {
-  width: 890px;
   min-height: 300px;
   display: flex;
   align-items: center;
@@ -119,75 +118,117 @@ button {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 #header {
   margin-top: 20px;
 }
 
+#violin-pic {
+  height: 400px;
+  width: 268px;
+  margin-right: 20px;
+}
+
+#proj-display-style {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*****************/
 /* MEDIA QUERIES */
 /*****************/
 
-/* below 768px */
-/* @media screen and (max-width: 768px) {
-  #header,
-  #app-container,
-  #connect,
-  #connect-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 1200px) {
+  nav {
+    width: 935px;
   }
 
-  #header-text,
-  #connect {
-    width: 88%;
-    height: fit-content;
+  button {
+    width: 640px;
   }
 
-  .project-card {
-    width: 88%;
-    margin-bottom: 15px;
-    height: fit-content;
+  #violin-pic {
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
 
-  .proj-img {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 90%;
+  #header-text {
+    width: 600px;
+    height: 360px;
   }
 
-  #violin-photo {
-    width: 268px;
-  }
-} */
-
-.hide-mobile {
-  @media (max-width: 480px) {
-    display: none;
-  }
 }
 
-.hide-desktop {
-  @media not all and (max-width: 480px) {
-    display: none;
+/* below 768px */
+@media screen and (max-width: 768px) {
+  nav {
+    width: 640px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  button {
+    width: 640px;
+  }
+
+  #violin-pic {
+    width: 184px;
+    height: 252px;
+    margin-right: 17px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  #connect-container {
+    margin: 0 auto;
+  }
+
+  #header-text {
+    width: 390px;
+    height: fit-content;
+    margin-right: 10px;
   }
 }
 
 @media screen and (max-width: 480px) {
   nav {
-    width: 420px;
+    width: 400px;
+  }
+
+  button {
+    width: 360px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 15px;
   }
 
   #violin-pic {
     width: 134px;
     height: 200px;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 
-  #header {
-    width: 420px;
-    margin-bottom: 20px;
+  #header-text {
+    margin: 0 auto;
+    width: 360px;
+    padding: 5px;
+  }
+
+  #connect-container {
+    margin: 0 auto;
+    width: 360px;
+    height: fit-content;
+  }
+
+
+  .flex-settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

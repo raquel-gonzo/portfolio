@@ -5,9 +5,8 @@ const Project = ({ project }) => {
   return (
     <Collapsible
       trigger={project.title}
-      // className="text-containers border-style"
+      triggerWhenOpen={<h1>{project.title}</h1>}
       contentContainerTagName="button"
-      // className="Collapsible__contentInner"
     >
         <div>
           <p>{project.content}</p>
@@ -16,7 +15,7 @@ const Project = ({ project }) => {
           <a href={project.link}>
             <img
               src={project.image}
-              alt="a preview of X project"
+              alt="project thumbnail"
               className="proj-img"
             />
           </a>
