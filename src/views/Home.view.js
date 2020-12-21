@@ -17,7 +17,6 @@ const Home = () => {
           id="violin-pic"
           >
           <Transformation 
-            // height="400" 
             crop="scale" />
         </Image>
         <div className="text-containers border-style" id="header-text">
