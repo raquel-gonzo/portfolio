@@ -5,8 +5,8 @@ const Project = ({ project }) => {
   return (
     <Collapsible
       trigger={project.title}
+      triggerTagName="h3"
       triggerWhenOpen={<h1>{project.title}</h1>}
-      contentContainerTagName="button"
     >
         <div>
           <p>{project.content}</p>

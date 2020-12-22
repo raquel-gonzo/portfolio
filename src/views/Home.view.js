@@ -22,17 +22,12 @@ const Home = () => {
         <div className="text-containers border-style" id="header-text">
           <h1>Hi, I'm Rachel!</h1>
           <p>
-            I am a recent coding bootcamp grad, knowledgable in React and Node,
-            looking for her first tech role in front end or full stack
-            development. I am passionate about music and about sharing knowledge
-            with others, making it accessible to everyone.
+            I am a Software Developer knowledgable in Full-Stack development. I like working on projects related to responsive front-end development and using modern Javascript frameworks. I love learning new things and applying them in my personal and professional work. 
+            I live in Chicago, IL and I'm currently looking for a new role in the Software Development field. I'm a proud member of #LatinasInTech and #Techqueria 🇲🇽 
           </p>
 
           <p>
-            I recently completed a 16 week accelerated coding bootcamp at Coding
-            Dojo, which helped me to enhance my knowledge of full stack web
-            development. I'm looking forward to joining a collaborative team
-            where I can share my skills and knowledge of front end development.
+            When I'm not coding, you can usually find me playing violin or cooking a new vegetarian recipe. 
           </p>
         </div>
       </div>

@@ -48,11 +48,9 @@ h2 {
 #icons i {
   margin: 10px;
 }
-
-button {
+div.Collapsible {
   border: 2px solid black;
   border-radius: 6px;
-  padding: 20px;
   background-color: #f1f1f1;
   font-family: "Roboto Mono", monospace;
   margin: 10px;
@@ -103,6 +101,10 @@ button {
 
 /* IDs */
 
+#header-text {
+  text-align: start;
+}
+
 #connect {
   display: flex;
   flex-direction: column;
@@ -147,10 +149,6 @@ button {
     width: 935px;
   }
 
-  button {
-    width: 640px;
-  }
-
   #violin-pic {
     margin-right: 20px;
     margin-bottom: 20px;
@@ -161,6 +159,16 @@ button {
     height: 360px;
   }
 
+  div.Collapsible {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    font-family: "Roboto Mono", monospace;
+    margin: 10px;
+    width: 500px;
+    padding: 10px;
+  }
+
 }
 
 /* below 768px */
@@ -169,10 +177,6 @@ button {
     width: 640px;
     margin-left: 5px;
     margin-right: 5px;
-  }
-
-  button {
-    width: 640px;
   }
 
   #violin-pic {
@@ -191,6 +195,16 @@ button {
     width: 390px;
     height: fit-content;
     margin-right: 10px;
+  }
+
+  div.Collapsible {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    font-family: "Roboto Mono", monospace;
+    margin: 10px;
+    width: 500px;
+    padding: 10px;
   }
 }
 
@@ -228,10 +242,20 @@ button {
     height: fit-content;
   }
 
-
   .flex-settings {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
+  div.Collapsible {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    font-family: "Roboto Mono", monospace;
+    margin: 10px;
+    width: fit-content;
+    padding: 10px;
+  }
+
 }
