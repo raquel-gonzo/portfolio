@@ -15,15 +15,15 @@ const ConnectView = () => {
       <h2>Connect</h2>
       <div className="text-containers border-style" id="connect-container">
         <p>
-          Feel free to contact me at{" "}
+          Email me at{" "}
           <a href="mailto:gonzalez.rachel.c@gmail.com">
             gonzalez.rachel.c@gmail.com
           </a>{" "}
           regarding freelance web development or music. Thanks for visiting!
         </p>
         <div id="icons">
-          <i onClick={linkedIn} className="fab fa-linkedin fa-3x"></i>
-          <i onClick={gitHub} className="fab fa-github-square fa-3x"></i>
+          <i id="linkedIn" onClick={linkedIn} className="fab fa-linkedin fa-3x"></i>
+          <i id="gitHub" onClick={gitHub} className="fab fa-github-square fa-3x"></i>
         </div>
       </div>
     </div>

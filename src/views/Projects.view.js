@@ -6,6 +6,13 @@ const ProjectsView = () => {
   const projects = [
     {
       image:
+        "https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_350/v1611549131/wonderful-weather-preview.png",
+      title: "Wonderful Weather",
+      content: "A weather app made with Vuejs and OpenWeatherAPI. Search by zip code or your city. Toggle between Fahrenheit and Celsius.",
+      link: "https://wonderful-weather.netlify.app/",
+    },
+    {
+      image:
         "https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_350/v1608444715/portfolio-tandem-preview.png",
       title: "Tandem Trivia",
       content:
@@ -43,14 +50,13 @@ const ProjectsView = () => {
       content:
         "Match the sugar skulls. A memory card game made with React and Cloudinary. Originally done in vanilla JavaScript, HTML and CSS, the game uses hooks to manage state and shuffling the deck.",
       link: "https://react-memory-skullies.netlify.app/",
-    },
+    }
   ];
 
   return (
     <div>
       <h2>My Code Projects</h2>
       <div 
-      // className="flex-settings" 
       id="proj-display-style"
       >
         {projects.map((project, index) => {
