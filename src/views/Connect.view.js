@@ -13,10 +13,10 @@ const ConnectView = () => {
           regarding freelance web development or music. Thanks for visiting!
         </p>
         <div id="icons">
-          <a href="https://www.linkedin.com/in/rgonzalezviolin" target="_blank">
+          <a href="https://www.linkedin.com/in/rgonzalezviolin" target="_blank" rel="noopener noreferrer" >
             <i id="linkedIn" className="fab fa-linkedin fa-3x" />
           </a>
-          <a href="https://github.com/raquel-gonzo" target="_blank">
+          <a href="https://github.com/raquel-gonzo" target="_blank" rel="noopener noreferrer" >
             <i id="gitHub" className="fab fa-github-square fa-3x" />
           </a>
         </div>
