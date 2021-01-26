@@ -102,6 +102,10 @@ div.Collapsible {
   text-align: start;
 }
 
+#icons a {
+  color: black;
+}
+
 #connect {
   display: flex;
   flex-direction: column;
