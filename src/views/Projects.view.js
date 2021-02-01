@@ -16,7 +16,7 @@ const ProjectsView = () => {
         "https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_350/v1608444715/portfolio-tandem-preview.png",
       title: "Tandem Trivia",
       content:
-        "A trivia game created for Tandem's Software Engineer Apprenticeship (October 2020). Created with React, Hooks, Flat.io, Cloudinary, and Bootstrap.",
+        "A trivia game created for Tandem's Software Engineer Apprenticeship (October 2020). Created with React, Hooks, Cloudinary, and Bootstrap.",
       link: "https://tandem-for-400.netlify.app/",
     },
     {
