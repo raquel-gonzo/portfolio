@@ -22,7 +22,7 @@ const Home = () => {
         <div className="text-containers border-style" id="header-text">
           <h1>Hi, I'm Rachel!</h1>
           <p>
-            I am a Software Engineer currently working at <a href="https://www.breaktech.com/" target="_blank">Breakthrough Technologies</a>. I enjoy working with modern JavaScript frameworks like React and Vue and working in the EdTech field.
+            I am a Software Engineer currently working at <a href="https://www.breaktech.com/" target="_blank" rel="noopener noreferrer">Breakthrough Technologies</a>. I enjoy working with modern JavaScript frameworks like React and Vue and working in the EdTech field.
           </p>
 
           <p>
