@@ -22,8 +22,7 @@ const Home = () => {
         <div className="text-containers border-style" id="header-text">
           <h1>Hi, I'm Rachel!</h1>
           <p>
-            I am a Software Developer knowledgable in Full-Stack development. I like working on projects related to responsive front-end development and using modern Javascript frameworks. I love learning new things and applying them in my personal and professional work. 
-            I live in Chicago, IL and I'm currently looking for a new role in the Software Development field. I'm a proud member of #LatinasInTech and #Techqueria <span role="img" aria-label="Mexican flag emoji">🇲🇽</span> 
+            I am a Software Engineer currently working at <a href="https://www.breaktech.com/" target="_blank">Breakthrough Technologies</a>. I enjoy working with modern JavaScript frameworks like React and Vue and working in the EdTech field.
           </p>
 
           <p>
